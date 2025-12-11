@@ -136,30 +136,6 @@ A real-time inventory stock monitoring dashboard built with **Streamlit** that s
 
 ---
 
-
-## 🐛 Troubleshooting
-
-### Issue: Google Sheets Not Loading
-**Solutions:**
-- ✅ Verify spreadsheet is publicly accessible
-- ✅ Check Sheet ID is correct in `secrets.toml`
-- ✅ Ensure headers match expected column names
-- ✅ Remove empty rows at the bottom of the sheet
-
-### Issue: Status Not Calculating
-**Solutions:**
-- ✅ Confirm "Available Stock" column exists
-- ✅ Ensure values are numeric (not text)
-- ✅ Check for empty cells or special characters
-
-### Issue: Auto-Refresh Not Working
-**Solutions:**
-- ✅ Verify `streamlit-autorefresh` is installed
-- ✅ Check browser console for errors
-- ✅ Disable browser cache if needed
-
----
-
 ## 📊 Use Cases
 
 ✅ **Retail Operations** - Monitor stock across multiple stores  
@@ -184,16 +160,6 @@ The app automatically detects these column variations:
 
 **SKU:**
 - `SKU`, `ID`, `Item No`, `Item Number`, `Barcode`
-
----
-
-## 🔐 Security Notes
-
-⚠️ **Important:**
-- Never commit `secrets.toml` to GitHub (already in `.gitignore`)
-- Use public Google Sheets or restrict access as needed
-- For Streamlit Cloud, add secrets in dashboard settings, not in code
-
 ---
 
 ## 📄 License
@@ -206,4 +172,5 @@ This project is provided as-is for inventory management purposes.
 **Live:** http://35.172.150.199:8501/
 **Last Updated:** December 8, 2025  
 **Version:** 1.0.0
+
 
