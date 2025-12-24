@@ -169,8 +169,9 @@ This project is provided as-is for inventory management purposes.
 ---
 
 **Repository:** https://github.com/Arslan-Ali-11/Retailer_product_dashboard  
-**Live:** http://35.172.150.199:8501/
-**Last Updated:** December 8, 2025  
+**Live:** https://retailer.streamlit.app/
+**Last Updated:** December 24, 2025  
 **Version:** 1.0.0
+
 
 
